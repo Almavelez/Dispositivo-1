@@ -4,11 +4,11 @@
 #include "DaoEntradaDispositivo.hpp"
 #include "DaoHistorialDispositivo.hpp"
 #include "utilIoT.hpp"
-#define SSID "PASA"
-#define PASS  "53735U83MU6HO"
-#define HUELLA_DIGITAL "8a5fa7cf1894f1331d63895617270765d4e15bed"
+#define SSID "*****"
+#define PASS  "**********"
+#define HUELLA_DIGITAL "***********************"
 #define ID_DISP "iot2"
-#define ID_PROYECTO "gilpgiotx"
+#define ID_PROYECTO "*********"
 const String URL_ENTRADA(urlDeDocumento(ID_PROYECTO, "ENTRADA", ID_DISP));
 const String URL_SALIDA(urlDeDocumento(ID_PROYECTO, "SALIDA", ID_DISP));
 const String URL_HISTORIAL(urlDeColeccion(ID_PROYECTO, "HISTORIAL"));
