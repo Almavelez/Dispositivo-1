@@ -5,7 +5,8 @@ class FabricaDispositivo {
   public:
     CtrlDispositivo ctrlDispositivo;
     FabricaDispositivo(void (*const muestraSalida)(int),
-                       int (*const recuperaEntrada)(), void (*const muestraError)(String));
+                       int (*const recuperaEntrada)(),
+                       void (*const muestraError)(String));
     void iniciaWiFi();
 };
 #endif

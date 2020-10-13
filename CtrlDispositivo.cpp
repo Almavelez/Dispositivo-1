@@ -7,9 +7,11 @@
 #include "utilIoT.hpp"
 
 CtrlDispositivo::CtrlDispositivo(const char* const idDisp,
-                                 void (*const muestraSalida)(int), int (*const recuperaEntrada)(),
+                                 void (*const muestraSalida)(int),
+                                 int (*const recuperaEntrada)(),
                                  void (*const muestraError)(String),
-                                 DaoHistorialDispositivo daoHistorial, DaoEntradaDispositivo daoEntrada,
+                                 DaoHistorialDispositivo daoHistorial,
+                                 DaoEntradaDispositivo daoEntrada,
                                  DaoSalidaDispositivo daoSalida)
   : _idDisp(idDisp),
     _muestraSalida(muestraSalida),
