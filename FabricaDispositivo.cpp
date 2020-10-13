@@ -6,7 +6,7 @@
 #include "utilIoT.hpp"
 #define SSID "****"
 #define PASS  "******"
-#define HUELLA_DIGITAL "8a5fa7cf1894f1331d63895617270765d4e15bed"
+#define HUELLA_DIGITAL "***************************"
 #define ID_DISP "iot2"
 #define ID_PROYECTO "*******"
 const String URL_ENTRADA(urlDeDocumento(ID_PROYECTO, "ENTRADA", ID_DISP));
