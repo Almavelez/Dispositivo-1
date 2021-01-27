@@ -1,5 +1,5 @@
-#ifndef _INFO_VALOR_H_
-#define _INFO_VALOR_H_
+#ifndef __RES_INT_H__
+#define __RES_INT_H__
 
 #include <Arduino.h>
 
@@ -7,7 +7,8 @@ class ResInt {
   public:
     const int valor;
     const String error;
-    ResInt(int _valor, String _error );
+    ResInt(int _valor,
+           String _error );
     ResInt(const ResInt& ref );
     const char* valida();
 };
