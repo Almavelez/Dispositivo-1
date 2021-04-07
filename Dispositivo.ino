@@ -6,9 +6,9 @@
 
 #define SSID "Iot"
 #define PASS  "12345678"
-#define HUELLA_DIGITAL "798bb177930734ec69314098399b857fc89321e8"
+#define HUELLA_DIGITAL "7094dedde6c469483a9270a14856782d1864e0b7"
 #define DISPOSITIVO_ID "iot2"
-#define ID_PROYECTO "gilpgiotx"
+#define ID_PROYECTO "controlavmz"
 
 // Pin del botón flash.
 const int BOTON_FLASH = 0;
